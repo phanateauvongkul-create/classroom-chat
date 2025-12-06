@@ -16,7 +16,7 @@ def main():
     try:
         return run_app()
     except Exception as e:
-        print("ERROR: An exception occurred:")
+        print("ERROR: An exception occurred :( :")
         print(traceback.format_exc())
         input("Press Enter to exit...")
         return 1

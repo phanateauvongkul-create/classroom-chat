@@ -11,7 +11,7 @@ from application.models.session_log import SessionLog
 from application.models.skill import Skill
 
 def default_nickname(context):
-    return context.get_current_parameters().get("username")
+    return context.get_current_parameters().get("Username ")
 
 class User(db.Model):
     @property

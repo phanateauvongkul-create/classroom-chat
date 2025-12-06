@@ -37,8 +37,6 @@ def init_admin(app):
         app,
         name="Advanced Admin",
         index_view=AdvancedIndex(url='/admin/advanced', endpoint='admin_advanced'),
-        template_mode='bootstrap4',  # Flask-Admin needs a template mode
-        base_template='admin/admin_base.html',  # Use your base template
     )
 
     # Auto-register all SQLAlchemy models
